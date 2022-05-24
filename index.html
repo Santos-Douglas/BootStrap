@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap</title>
+    <!-- Link para pegar o stilo CSS dos servidores do BootStrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <style>
+        .tm-social {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<!--Menu-->
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="#">Vida mais Saudável</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#">Início <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Dicas</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Exercícios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Em casa</a>
+                        <a class="dropdown-item" href="#">Ao ar livre</a>
+                        <a class="dropdown-item" href="#">Em Academia</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="Pesquisar" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!--/Menu-->
+
+    <!--Carrossel-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://userscontent2.emaze.com/images/0ed400cb-2e86-428f-90a3-3ade68b2f46f/dcee634be94c0231e4ef770ddf1c74ff.jpeg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://tourlife.com.br/wp-content/uploads/2019/05/bowl-centimeter-delicious-1332189.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.portalversi.com.br/wp-content/uploads/2020/06/Estilo-de-Vida-Saud%C3%A1vel-com-rotina-atribulada-800x445.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+    <!--/Carrosel-->
+
+    <!--Card-->
+    <div class="container">
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tenha uma boa noite de sono</h5>
+                    <p class="card-text">Dormir bem evita doenças como obesidade e ansiedade. Seu desempenho melhora
+                        durante o dia, pois você ganha mais disposição e concentração. O recomendado é dormir, pelo
+                        menos, de seis a oito horas por dia.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-titlle">Controle seu peso</h5>
+                    <p class="card-text">Manter um peso considerado saudável vai além de conquistar uma boa
+                        aparência.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tome um café da manhã reforçado</h5>
+                    <p class="card-text">Comer bem logo que acorda faz com que seu corpo ganhe força para enfrentar as
+                        próximas horas. Leite batido com frutas, pão integral e cereais são ótimas opções para começar o
+                        dia. A laranja, por exemplo, é rica em vitamina C e protege nosso sistema imunológico.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card bg-primary text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Beba bastante água</p>
+                    <footer class="blockquote-footer text-white">
+                        <p class="card-text">Além de matar a sede, a água é muito importante para manter seu corpo
+                            hidratado e diminuir a retenção de líquidos, o que contribui para a perda de peso. A
+                            bebida também ajuda na desintoxicação do organismo e seu intestino funciona bem melhor.
+                            O indicado é consumir dois litros por dia.</p>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card text-center">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <h5 class="card-title">Faça atividades físicas</h5>
+                        <footer class="blockquote-footer">
+                            <p class="card-text">Exercícios devem fazer parte da sua rotina, até mesmo se você não quer
+                                perder
+                                peso. Se feitos regularmente, eles diminuem os riscos de doenças cardíacas, dão força
+                                para os
+                                músculos e aceleram o metabolismo.</p>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card">
+            </div>
+            <div class="card p-3 text-right">
+                <blockquote class="blockquote mb-0">
+                    <p>Não fique tanto tempo sentado</p>
+                    <footer class="blockquote-footer">
+                        <p class="card-text">Nosso corpo foi feito para se mexer, portanto se você passa muitas horas do
+                            dia sentado, corre riscos de ter dores na coluna, lesões nos tendões e até perda de
+                            flexibilidade. Tente levantar a cada uma hora e ande um pouco ou vá beber água. Assim você
+                            se movimenta e também se mantém hidratado.</p>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Monte pratos bem coloridos</h5>
+                    <p class="card-text">O recomendado é que se coma cinco porções de frutas, verduras e legumes por
+                        dia. A expressão popular “comer com os olhos” faz todo sentido, pois ter uma variedade de cores
+                        no prato desperta o paladar.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulário de contato -->
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-center">
+                    Entre em contato com a gente!!
+                </h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1"> Seu melhor Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Motivo de contato</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Dicas para dieta</option>
+                        <option>Hipertrofia</option>
+                        <option>Emagrecimento</option>
+                        <option>Cuidados com saúde</option>
+                        <option>Outros</option>
+                      </select>
+                    </div>                    
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Detalhe em poucas palavras e ajudaremos da melhor forma</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn-outline-dark">Enviar</button>
+                    </div>
+
+                    </form-group>
+                  </form>
+            </div>
+        </div>       
+          <!-- /Formulário de contato -->
+
+        <!-- Rodapé -->
+        <footer>
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <a href="https://www.facebook.com/" target="_blank" class="p-2">
+                        <img class="tm-social" src="Assets/img/facebook.png" alt="Logo do facebook">
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="p-2">
+                        <img class="tm-social" src="Assets/img/instagram.png" alt="Logo do instagram">
+                    </a>
+
+                    <a href="https://www.linkedin.com/home" target="_blank" class="p-2">
+                        <img class="tm-social" src="Assets/img/linkedin.png" alt="Logo do linkedin">
+                    </a>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">
+                            Direitos reservados por: Douglas Michel &copy;
+                        </p>
+                    </div>
+                </div>            
+        </footer>
+
+        <!-- /Rodapé -->
+
+    </div>
+    <!--/Card-->
+
+    <!-- Scripts necessários para utilização dos códigos JavaScript do BootStrap-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+        </script>
+    <!-- /Scripts necessários para utilização dos códigos JavaScript do BootStrap-->
+
+</body>
+
+</html>
