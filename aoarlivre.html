@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap</title>
+    <!-- Link para pegar o stilo CSS dos servidores do BootStrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+</head>
+
+<!--Menu-->
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light colorMenu">
+        <a class="navbar-brand" href="https://www.youtube.com/watch?v=5s4s8RqXNsQ">Vida mais Saudável</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-dark" href="index.html">Início <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="dicas.html">Dicas</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Exercícios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="emcasa.html">Em casa</a>
+                        <a class="dropdown-item" href="aoarlivre.html">Ao ar livre</a>
+                        <a class="dropdown-item" href="academia.html">Em Academia</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="Pesquisar" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!--/Menu-->
+
+    <!-- Texto-->
+    <div class="row mt-5 mb-5">
+        <div class="col-md-4 margem">
+            <h4>As vantagens de treinar ao ar livre</h4>
+            <p class="tamText">
+                Você sabia que treinar ao ar livre e em ambientes com luz natural pode potencializar os efeitos do
+                treino? Além disso, pode lhe proporcionar um super bem – estar mental, entre muitos outros benefícios.
+
+                Os raios solares ativam a produção de serotonina, hormônio conhecido por melhorar o humor, reduzir a
+                ansiedade, causar uma sensação de calma e tranquilidade e aumentar o foco.
+            </p>
+            <h4>Trabalho Mental</h4>
+            <p class="tamText">
+                Treinar ou fazer esportes ao ar livre estimula mais do que os seus músculos, mas também sua mente. O
+                ambiente dinâmico ao seu redor te obriga a prestar atenção a alguns detalhes que não acontecem numa
+                academia.
+
+                Podemos dizer também que melhora o foco, porque os ambientes naturais têm um cenário único, diverso e
+                novo para capturar nossa atenção, de acordo com um estudo publicado em 1995 no Journal of Environmental
+                Psychology.
+            </p>
+        </div>
+        <!-- /Texto-->
+
+        <!--Foto-->
+        <div class="col-md-4">
+            <img src="Assets/img/treinoparque.jpg" alt="treino">
+        </div>
+        <!--/Foto-->
+    </div>
+
+
+    <!-- Texto II-->
+    <div class="row mt-5 mb-5">
+        <div class="col-md-5 margem">
+            <h4>Aumento da Motivação</h4>
+            <p class="tamText">
+                Treinar sempre no mesmo lugar, com as mesmas pessoas, ouvindo as mesmas músicas, fazendo basicamente os
+                mesmos exercícios… para algumas pessoas, funciona. Mas para a maioria, torna-se cada vez mais difícil.
+
+                Uma boa forma de evitar que o treino caia na rotina, de acabar com a monotonia e de se manter sempre
+                animado e disposto é fazendo um treino ao ar livre.
+
+                Uma atividade diferente, num lugar diferente, com um ambiente totalmente diferente ao seu redor… pode
+                ser tudo o que você precisa para “renovar” sua pegada nos treinos.
+            </p>
+
+        </div>
+        <!-- /Texto II-->
+
+        <!--Foto-->
+        <div class="col-md-4">
+            <img src="Assets/img/treinoparque2.jpg" alt="treinoII">
+        </div>
+        <!--/Foto-->
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <a href="https://www.facebook.com/" target="_blank" class="p-2">
+                    <img class="logo" src="Assets/img/facebook.png" alt="Logo do facebook">
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="p-2">
+                    <img class="logo" src="Assets/img/instagram.png" alt="Logo do instagram">
+                </a>
+
+                <a href="https://www.linkedin.com/home" target="_blank" class="p-2">
+                    <img class="logo" src="Assets/img/linkedin.png" alt="Logo do linkedin">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">
+                    Direitos reservados por: Douglas Michel &copy;
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- /Rodapé -->
+
+    <!-- Scripts necessários para utilização dos códigos JavaScript do BootStrap-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+        </script>
+    <!-- /Scripts necessários para utilização dos códigos JavaScript do BootStrap-->
+
+</body>
+
+</html>
